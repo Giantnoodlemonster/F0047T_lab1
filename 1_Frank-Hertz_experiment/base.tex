@@ -1,4 +1,5 @@
 ﻿\documentclass{article}
+\usepackage{subcaption, float}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -11,11 +12,12 @@
 %\usepackage{wrapfig}
 %\usepackage{subfigure}
 %\usepackage{todonotes}
+\usepackage{hyperref}
 \usepackage{listings}
 \usepackage[utf8]{inputenc}
 \usepackage[swedish]{babel} 
 \usepackage[swedish]{cleveref}
-\usepackage[retainorgcmds]{IEEEtrantools}
+%\usepackage[retainorgcmds]{IEEEtrantools}
 %\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 \graphicspath{{Bilder/}}
 \numberwithin{equation}{section}
@@ -50,5 +52,8 @@
 
 \section{Diskussion}
 \input{diskussion.tex}
+
+\input{references.tex}
+
 
 \end{document}
