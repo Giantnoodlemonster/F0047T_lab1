@@ -1,0 +1,86 @@
+Alla tester kördes utan förstärkning och värden är sparade med $5~\textrm{V/div.}$
+För att enkelt kunna läsa av maximan och miniman för accelerationsenergin, $U_A$, för att i sin tur kunna beräkna excitationsenergin, måste korrekt backspänning och en bra temperatur i ugnen uppnås. Med \Cref{eq:debrog}\cite[s. 303]{ph} kan man hitta våglängd från rörelseenergi, vilket kan användas för att identifiera excitationsspektrat, kvicksilvers unika fingeravtryck.
+\begin{equation}\label{eq:debrog}
+	\lambda \frac{h}{\sqrt{2mE_k}}
+\end{equation}
+där $h$ är plancks konstant, $m$ är massan av atomen och $E_k$ är den kinetiska energin.
+
+För att säkerhetsställa rätt temperatur i tuben ska temperaturen sättas till $180^o~\textrm{C}$, detta för att säkerhetsställa rätt tryck i tuben. För låg temperatur leder till att det kan bli för få kvicksilveratomer för att märka topparna, och för högt tryck leder till att medelavståndet mellan kollisioner sjunker och slumpmässig rörelse höjs\cite{rochhand}.
+
+Backspänningen agerar som en potentialstegsbarriär, när denna är för hög ``absorberas'' alla låga accelerationsspänningar bort och ``subtraherar'' från de passerande elektronernas energi. Är denna för låg syns nästan bara brus.
+En bra nivå på backspänningen sattes till cirka $9~\textrm{V}$.
+
+Med ett svep på $50~\textrm{V}$ gavs följande vy, \Cref{fig:ollle} och värdena i \Cref{tab:maxmin}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = .8\textwidth]{osc_light_low_lowUA_e.jpg}
+	\caption{x-led: accelerationsspänning, $U_A$, [$5~\textrm{V/Major div.}$]\\
+			y-led: ström, $I_A$, [arbiträr enhet]}
+	\label{fig:ollle}
+\end{figure}
+
+\begin{minipage}{\linewidth}
+\begin{table}[H]
+\centering
+	\begin{tabular}{llll}
+ 	\textbf{Maxima [div.]}& \textbf{Maxima [V]}&\textbf{Minima [div.]}& \textbf{Minima [V]}\\\hline
+	$3.4$&$17$&$3.0$&15\\
+	$4.2$&$21$&$3.8$&19\\
+	$5.0$&$25$&$4.6$&23\\
+	$5.8$&$29$&$5.4$&27\\
+	$6.6$&$33$&$6.2$&31\\
+	$7.4$&$37$&$7.0$&35\\
+	$8.2$&$41$&$7.8$&39\\
+	$8.8$&$44$&$8.4$&42\\
+	$9.0$&$45$&$ - $&
+ 	\end{tabular}
+\caption{Non-standard library entries, custom or third-party designed.}
+\label{tab:maxmin}
+\end{table}
+\end{minipage}
+\vspace{.5cm}
+
+Från \Cref{fig:ollle} kan det ses hur strömmen ökar exponentiellt med högre accelerationsspänning med periodiska dipp som motsvarar excitationsenergierna för kvicksilver. Den exponentiella ökningen ses tydligt i början av \Cref{fig:dark_high} där vi testade extremerna för systemet.
+
+Filament voltage effect:
+Scales up or shifts current earlier along the acceleration voltage axis.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[c]{0.47\textwidth}
+	\includegraphics[width=\textwidth]{osc_dark_low_lowUA_e.jpg}
+	\caption{XXX}
+	\label{fig:dark_lowub}
+	\end{subfigure}
+	~
+	\begin{subfigure}[c]{0.47\textwidth}
+	\includegraphics[width=\textwidth]{osc_dark_low_highUA_e.jpg}
+	\caption{XXXXXXXXXXX}
+	\label{fig:dark_highub}
+	\end{subfigure}
+	\caption{XXX}\label{fig:hgstuff}
+	
+	\begin{subfigure}[c]{0.47\textwidth}
+	\includegraphics[width=\textwidth]{osc_dark_high_e.jpg}
+	\caption{XXXXXXXXXXX}
+	\label{fig:dark_high}
+	\end{subfigure}
+	\caption{XXX}\label{fig:hgstuff}
+\end{figure}
+
+%1. description of the experimental setup.
+%2. Explain how current, accelerating voltage, reverse bias and collector current should fit
+%together if the laws of classical physics would apply.
+%3. Using quantum mechanics how would you explain the connection between IC and UA.
+%Give an account for the values of accelerating voltages for the different maxima and
+%minima, present your results in a table. From these values deduce the excitation energy.
+%Take great care in your explanation of the experiment. To facilitate your process of
+%understanding you can perform an ’gedanken experiment’ like following an electron as
+%it is moving from the source to the collector. Ask yourself questions like, where in
+%the tube will excitations occur, what happens to the electron after exciting a mercury
+%atom, if an electron of constant kinetic energy (like 1eV) would move from the glowing
+%filament to the collector how long would this take, how much is this in comparison to
+%the time it takes to complete one cycle (at 50Hz).
+%4. In your report you should also include an analysis of what happens to the current
+%curve if you change the reverse bias, the current in the glowing filament, the maximum
+%acceleration voltage and the temperature of the oven.
