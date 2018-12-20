@@ -28,14 +28,13 @@ Med ett svep på $50~\textrm{V}$ accelerationsspänning, $U_A$, gavs följande v
 \end{minipage}
 \vspace{.5cm}
 
-Från \Cref{fig:ollle} kan det ses hur strömmen ökar exponentiellt med högre accelerationsspänning med periodiska dipp som motsvarar excitationsenergierna för kvicksilver, 4eV, enligt periodiciteten som ses i \cref{tab:maxmin}. Den exponentiella ökningen ses tydligt i början av \Cref{fig:dark_high} där vi testade extremerna för systemet.
+Från \Cref{fig:ollle} kan det ses hur strömmen ökar exponentiellt med högre accelerationsspänning med periodiska dipp som motsvarar excitationsenergierna för kvicksilver, $4~\textrm{eV}$, enligt periodiciteten som ses i \cref{tab:maxmin}. Den exponentiella ökningen ses tydligt i början av \Cref{fig:dark_high} där vi mätte maximan och miniman för systemet.
 % TODO: "där vi testade extremerna för systemet" låter för ospecifikt tycker jag. Läsaren kommer ju inte ha någon aning om vad vi menar. 
+% Good ?
 
-Från jämförelse mellan bilderna \cref{fig:dark_lowub,fig:dark_highub} kan vi se att en skillnad i spänningen över filamentet ``förskjuter'' området vi ser maximan och miniman. I cref{fig:dark_highub}, där $U_b$ har ökats, syns de periodiska fallen i strömmen bara mot slutet av skalan, där accelerationsspänningen är stor nog för att driva elektronerna förbi potentialbarriären. 
-%Filament voltage effect:
-%Scales up or shifts current earlier along the acceleration voltage axis.
+Från jämförelse mellan bilderna \cref{fig:dark_lowub,fig:dark_highub} kan vi se att en skillnad i spänningen över filamentet ``förskjuter'' området vi ser maximan och miniman. I \cref{fig:dark_highub}, där $U_b$ har ökats, syns de periodiska fallen i strömmen bara mot slutet av skalan, där accelerationsspänningen är stor nog för att driva elektronerna förbi potentialbarriären. 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\begin{subfigure}[c]{0.47\textwidth}
 	\includegraphics[width=\textwidth]{osc_dark_low_lowUA_e.jpg}
@@ -43,33 +42,39 @@ Från jämförelse mellan bilderna \cref{fig:dark_lowub,fig:dark_highub} kan vi 
 	\label{fig:dark_lowub}
 	\end{subfigure}
 	~
-	\begin{subfigure}[c]{0.49\textwidth}
+	\begin{subfigure}[c]{0.47\textwidth}
 	\includegraphics[width=\textwidth]{osc_dark_low_highUA_e.jpg}
 	\caption{Efter backspänningen ökat krävs det mer accelerationsspänning för att nå anoden och registrera som ström.}
 	\label{fig:dark_highub}
 	\end{subfigure}
-	
+	%\vspace{.5cm}
+	~
 	\begin{subfigure}[c]{0.47\textwidth}
 	\includegraphics[width=\textwidth]{osc_dark_high_e.jpg}
-	\caption{XXXXXXXXXXX}
+	\caption{När temperaturen, backspänningen och spänningen över filamentet var perfekt visades tydligt det exponentiella förhållandet mellan accelerationsspänning och ström, och Franck-Hertz röret började agera som ett lysrör, se \cref{fig:striplight}.}
 	\label{fig:dark_high}
 	\end{subfigure}
-	\caption{XXX}\label{fig:hgstuff}
+	\caption{Bilder fångade på oscilloskopet med släckt lampa för tydligare bild}\label{fig:hgstuff}
 \end{figure}
-
-%1. description of the experimental setup.
-%2. Explain how current, accelerating voltage, reverse bias and collector current should fit
-%together if the laws of classical physics would apply.
-%3. Using quantum mechanics how would you explain the connection between IC and UA.
-%Give an account for the values of accelerating voltages for the different maxima and
-%minima, present your results in a table. From these values deduce the excitation energy.
-%Take great care in your explanation of the experiment. To facilitate your process of
-%understanding you can perform an ’gedanken experiment’ like following an electron as
-%it is moving from the source to the collector. Ask yourself questions like, where in
-%the tube will excitations occur, what happens to the electron after exciting a mercury
-%atom, if an electron of constant kinetic energy (like 1eV) would move from the glowing
-%filament to the collector how long would this take, how much is this in comparison to
-%the time it takes to complete one cycle (at 50Hz).
-%4. In your report you should also include an analysis of what happens to the current
-%curve if you change the reverse bias, the current in the glowing filament, the maximum
-%acceleration voltage and the temperature of the oven.
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[c]{0.47\textwidth}
+	\includegraphics[width=\textwidth]{tube_dark_mid.jpg}
+	\caption{motsvarar grafen i \cref{fig:dark_lowub}}
+	\label{fig:fhlow}
+	\end{subfigure}
+	~
+	\begin{subfigure}[c]{0.49\textwidth}
+	\includegraphics[width=\textwidth]{tube_dark_high.jpg}
+	\caption{Motsvarar grafen i \cref{fig:dark_highub}}
+	\label{fig:fhmid}
+	\end{subfigure}
+	\vspace{.5cm}
+	
+	\begin{subfigure}[c]{0.47\textwidth}
+	\includegraphics[width=\textwidth]{striplight.jpg}
+	\caption{Motsvarar grafen i \cref{fig:dark_high}}
+	\label{fig:striplight}
+	\end{subfigure}
+	\caption{Bilder fångade på Franck-Hertz röret med släckt lampa för tydligare bild, dessa motsvarar respektive grafer fångade i \cref{fig:hgstuff}}\label{fig:hgstuff}
+\end{figure}
