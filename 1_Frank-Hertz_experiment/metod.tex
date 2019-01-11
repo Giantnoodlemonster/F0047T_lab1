@@ -1,24 +1,25 @@
 Alla tester kördes utan förstärkning och värden är sparade med $5~\textrm{V/div.}$
-För att enkelt kunna läsa av maximan och miniman för accelerationsenergin, $U_A$, för att i sin tur kunna beräkna excitationsenergin, måste korrekt backspänning och en bra temperatur i ugnen uppnås. Med \Cref{eq:debrog}\cite[s. 303]{ph} kan man hitta våglängd från rörelseenergi, vilket kan användas för att identifiera excitationsspektrat, kvicksilvers unika fingeravtryck.
-\begin{equation}\label{eq:debrog}
-	\lambda = \frac{h}{\sqrt{2mE_k}}
-\end{equation}
-där $h$ är plancks konstant, $m$ är massan av atomen och $E_k$ är den kinetiska energin.
-\begin{equation}\label{eq:ek}
-	E_k [eV]= Q * V 
-\end{equation}
-där Q är laddningen av en elektron och V är spänningen för att excitera en elektron.
+För att enkelt kunna läsa av maximan och miniman för accelerationsenergin, $U_A$, för att i sin tur kunna beräkna excitationsenergin, måste korrekt backspänning och en bra temperatur i ugnen uppnås. Med \Cref{eq:fin} kan man hitta våglängd från elektronvolt, denna är sammansatt från ekvationer \cref{eq:v1,eq:v2,eq:v3,eq:v4}\cite[sec. 7.2]{ph}. Detta kan användas för att identifiera excitationsspektrat, kvicksilvers unika fingeravtryck.
+\begin{equation}\label{eq:v1}E^2=p^2*c^2 + E_0^2\end{equation}
+där $E$ är energin för en relativistisk partikel och $E_0$ i detta fall är viloenergin för en foton. Denna kombineras med
+\begin{equation}\label{eq:v2}E_0=m_0*c^2\end{equation}
+där $m_{0}=0$ är massan för en foton. Detta ger $E_0=0$ och följande ekvation
+\begin{equation}\label{eq:v3}E^2=p^2*c^2 \Leftrightarrow E=pc \Leftrightarrow p=E/c \end{equation}
+
+Efter detta används de Broglies ekvation för dess relation mellan rörelsemängden $p$ och våglängden lambda.
+\begin{equation}\label{eq:v4}\lambda=\frac{h}{p}\end{equation}
+där $h$ är planck's konstant i elektronvolt.
+
 \begin{equation}\label{eq:values}
 	\begin{cases}
-		h	&= 6.626*10^{-34}\\
-		m	&= m_{mercury} = 200.59~\textrm{u} = 333.09*10^-27~\textrm{kg}\\
-		Q	&= 1.60*10^{-19}\\
-		V	&= \Delta V~\textrm{över uppmätta maxima}
+		h	&= 4.1356672*10^{-15}~\textrm{[eV-s]}\\
+		c	&= 299792458~\textrm{[m-s]}\\
+		E	&= \Delta V~\textrm{[eV] över uppmätta maxima}
 	\end{cases}
 \end{equation}
 ger ekvationen
 \begin{equation}\label{eq:fin}
-	\lambda \approx \sqrt{\frac{4.12*10^-24}{V}}
+	\lambda = \frac{hc}{E} = \textrm{\{värden från \cref{eq:values}\}}=302~\textrm{nm}
 \end{equation}
 
 Temperaturen ska sättas till $180^o~\textrm{C}$, detta för att säkerhetsställa rätt tryck i tuben. För låg temperatur leder till att det kan bli för få kvicksilveratomer för att märka topparna, och för högt tryck leder till att medelavståndet mellan kollisioner sjunker och slumpmässig rörelse höjs\cite{rochhand}.

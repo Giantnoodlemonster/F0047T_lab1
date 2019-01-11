@@ -4,13 +4,20 @@ För en given filamentspänning, kammartemperatur och backspänning kommer parti
 
 %Det som faktiskt observerats är BADASS RUBBER DUCKBADASS RUBBER DUCK.
 
-Enligt tabellen \cref{tab:maxmin} har vi miniman i spänningar $15, 19, 23, 27, 31, 35, 39, 42~\textrm{V}$. Då effekten av backspänningen börjar kicka in på slutet observerar vi bara de första $6$ spänningarna. Det kan antas att med rätt justeringar på backspänningen bör detta mönster upprepas både ner till det första kvantstadiet och säkert även för högre spänningar, smartast hade nog varit att zooma in på det tidiga området på plats, men det blev inte av. Ett tydligt mönster på cirka $\Delta 4~\textrm{V/peak}$ kan urskiljas. Denna energi bör stämma överrens med en våglängd av ljus emmiterad av kvicksilver. Användandes \cref{eq:fin} i \cref{sec:met} ges en våglängd på cirka $1.015*10^{-12}~\textrm{m}$, eller $1.015~\textrm{pm}$, se \cref{eq:voltsol}. %Ska vara ~254nm, vet inte varför det är fel, men whatever. Inte fel på formeln jag använt iallafall, den ger samma svar... Tänker nog fel på E_k!
-\[\lambda \approx \sqrt{\frac{4.12*10^-24}{V}} = \]
-\begin{equation}\label{eq:voltsol} = 1.015*10^{-12}\end{equation}
+Enligt tabellen \cref{tab:maxmin} har vi miniman i spänningar $15, 19, 23, 27, 31, 35, 39, 42~\textrm{V}$. Då effekten av backspänningen börjar kicka in på slutet observerar vi bara de första $6$ spänningarna. Det kan antas att med rätt justeringar på backspänningen bör detta mönster upprepas både ner till det första kvantstadiet och säkert även för högre spänningar, smartast hade nog varit att zooma in på det tidiga området på plats, men det blev inte av. Ett tydligt mönster på cirka $\Delta 4~\textrm{V/peak}$ kan urskiljas. Denna energi bör stämma överrens med en våglängd av ljus emmiterad av kvicksilver. Användandes \cref{eq:fin} i \cref{sec:met} ges en våglängd på cirka $302*10^{-9}~\textrm{m}$, eller $302~\textrm{nm}$, se \cref{eq:resultat}. Stoppas $E=4.9~\textrm{eV}$ in i ekvationen, vilket bör vara den korrekta spänningsskillnden, fås med ekvationen \cref{eq:fin} den förväntade våglängden $253~\textrm{nm}$\cite{fhbook}.
+\begin{equation}\label{eq:resultat} \lambda = \sqrt{\frac{hc}{E}} = 302*10^{-9}~\textrm{m}\end{equation}
 
-Detta känns inte riktigt rimligt, men vad gör man?
+$302~\textrm{nm}$ är ett ljus gränsfall till ultraviolett, och bör därför inte gå att se med bara ögon. Då skenet i tuben, \cref{fig:hgstuff}, har ett tydligt turkost sken estimerat till någonstans i det blå spektrat mellan $450 - 495~\textrm{nm}$ vilket bör överrensstämma med en spänninsgskillnad på $\approx 2.7-3.1~\textrm{eV}$ enligt \cref{eq:fin}, är vi inte riktigt säkra på vad som hänt.
+
+Möjliga felkällor är, i ordning av sannolikhet.
+\begin{itemize}
+	\item Fel antagande i härledning av ekvationen \cref{eq:fin}, någonting relevant kan ha missats. 
+	\item Fel estimering av förstärkningssteget. Då förstärkning ansågs vara irrelevant sattes denna i botten vilket antogs vara förstärkning $\textrm{Gain} = 1$.
+	\item Fel avläsning från oscilloskop.
+	\item Dålig kombination av test-setup-parametrar
+	\item Materiell avvikande från specifikation
+\end{itemize}
 
 %3. Using quantum mechanics how would you explain the connection between IC and UA.
-
 %Give an account for the values of accelerating voltages for the different maxima and minima, present your results in a table. From these values deduce the excitation energy.
 %Take great care in your explanation of the experiment. To facilitate your process of understanding you can perform an ’gedanken experiment’ like following an electron as it is moving from the source to the collector. Ask yourself questions like, where in the tube will excitations occur, what happens to the electron after exciting a mercury atom, if an electron of constant kinetic energy (like 1eV) would move from the glowing filament to the collector how long would this take, how much is this in comparison to the time it takes to complete one cycle (at 50Hz).
