@@ -1,0 +1,62 @@
+Sammanfattning:
+	Jag tycker inte vi har stöd för att kunna påstå att ljuset nödvändigtvis är 
+	relaterat till energin vi ska mäta; jag tror vi kan nämna närheten till 297nm 
+	som du gjort, men att vi ändå påpekar att det väntade värdet hade varit 
+	4.9eV/253nm. 
+
+Metod:
+	Tycker nästan metoden och teorin båda borde falla under teori, eller att metod 
+	döps om till uträkningar eller något liknande. Sen föredrar jag cdot mot 
+	asterisk, bara för att det är lite snyggare. 
+
+	Ekvationer 2.5, enheten ser konstig ut med bindesträcken?
+
+	Borde inte uträkningen av våglängden hamna i slutet av resultatet? Detsamma 
+	med innehållet i ekv 2.5 faktiskt. Resultaten ska komma i resultatdelen ju. Så
+	min åsikt är att det ska flyttas till slutet av resultatet. 
+
+Resultat:
+	Hittar inget att anmärka. But the alignment on figure 2...
+
+Diskussion:
+	Paragraf 3, "enligt tabellen tabell 1" => "enligt tabell 1".
+
+	Samma paragraf, "Det kan antas," nej, vi kan inte bara påstå det för vi har 
+	än framfört bevis och resonemang varför vi kan göra det. Jag skulle säga t.ex. 
+	att "med det experimenterandet som gjorts tycks det rimligt" eller något 
+	liknande, eftersom det som sagt inte är styrkt av bevis och resonemang.
+
+	"Stoppas E=4.9eV..." enligt vad jag fått lära mig så ska man aldrig ge "ny" 
+	information i diskussionen utan det ska ha presenterats tidigare, t.ex. i 
+	resultatet. Vet inte om det finns ett smidigt sätt att göra det, men om du 
+	kommer på något så är jag all ears.
+
+	Paragrafen efter ekvation 4.1: "... är vi inte riktigt säkra på vad som hänt" 
+	bidrar inte till läsarens förståelse. Jag skulle säga något i stil med "vilket 
+	visar på att det varit ett felaktikt antagande att absorptionslinjen som ses 
+	på oscilloskopet är relaterat till det ljus som avges från kvicksilvret."
+
+	Lite text för att fylla ut listan med felkällor till egna paragraf istället:
+
+	Resultatets korrekthet kan ha påverkats av ett flertal felkällor. Till exempel
+	är det osäkert om oscilloskopet var helt korrekt inställt då början och slutet
+	av rampsignalen inte ger tydliga kanter speciellt i början, beroende på 
+	systemets inställningar. Då grafens start och stopp i x-led antogs motsvara 0
+	och 50 exakt vilket bestämmer spänningen per division och därav det uppmätta 
+	spannet mellan miniman riskerar osäkerheten där att direkt påverka resultatet.
+
+	På grund av okunskap kan systemet ha varit inställt på ett sådant sätt som ger
+	sämre resultat än väntat. Till exempel var det svårt att i början få det 
+	väntade periodiska resultatet över huvud taget, trots att anvisningarna 
+	följdes. Därför kan något oförutsett misstag ha påverkat experimentet. 
+
+	Det tidigare nämnda turkosa ljuset missledde som demonstrerat i vad som 
+	förväntades uppmätas. På liknande spår angavs en väntad ström i 
+	labhandledningen, men det fanns ingen respons från instrumenten om vad som 
+	mättes under experimentet då förstärkningen till exempel inte fanns angiven.
+
+	Allt detta ger en viss felmarginal som leder till det slutgiltiga resultatet
+	som observerats. Med det sagt så är resultatet fortfarande inom liten nog 
+	felmarginal att det är klart demonstrativt för fenomenet som skulle uppmätas, 
+	och ger en experimentell grund för förståelse för modern kvantmekanik.
+	Footnote: Som utfördes för över hundra år sedan.
